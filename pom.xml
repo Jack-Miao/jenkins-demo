@@ -59,7 +59,7 @@
                 <artifactId>dockerfile-maven-plugin</artifactId>
                 <version>1.4.10</version>
                 <configuration>
-                    <dockerInfoDirectory>/var/jenkins_home/workspace/docker_file</dockerInfoDirectory>
+                    <dockerfile>/var/jenkins_home/workspace/docker_file/Dockerfile</dockerfile>
                     <tag>${project.version}</tag>
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
