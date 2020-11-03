@@ -15,6 +15,6 @@ public class DemoController {
     @RequestMapping("/demo")
     @ResponseBody
     public String demo(){
-        return "jenkins部署成功11111";
+        return "jenkins部署成功2222";
     }
 }
